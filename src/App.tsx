@@ -83,8 +83,8 @@ function App() {
 
 	const [isTyping, setIsTyping] = useState(false)
 	const [code, setCode] = useState('')
-	const [session, setSession] = useState('AUT')
-	const [year, setYear] = useState('2022')
+	const [session, setSession] = useState('SPR')
+	const [year, setYear] = useState(today.getFullYear().toString())
 	const [searchResults, setSearchResults] = useState([])
 
 	useEffect(() => {
